@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+</head>
+<body>
+    <h1>Observe a imagem mudar de tamanho ao aumentar ou diminuir a página</h1>
+    
+    <picture>
+
+        <source media="(max-width: 800px)" srcset="fotos/falanster.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="fotos/red.png" type="image/png">
+        <img src="fotos/A.png" alt="foto grande">
+
+    </picture>
+
+    <h1>Reproduzir audio</h1>
+    <p>Escute o áudio</p>
+    <!--MP3 WAV OGG sao os tipos de audios aceitos-->
+    <audio preload="metadata" controls>
+        <source src="midia/happy.mp3" type="audio/mpeg">
+        <source src="midia/happy.ogg" type="audio/ogg">
+        <source src="midia/happy.wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/happy.mp3" target="_blank">Clique aqui</a> para baixar o arquivo mp3</p>
+
+
+    
+</body>
+</html>

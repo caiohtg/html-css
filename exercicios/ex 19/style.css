@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+em HTML 'id' é representado em CSS como #(apenas um elemento)
+em HTML 'class' é representado em CSS como .(varios elementos
+*/
+
+body {
+    background-image: linear-gradient(to top, #b5eeb5 40%, #9fdf9f);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: darkgreen; 
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: darkgreen;
+    box-shadow: 5px 5px 5px rgba(1, 54, 1, 0.445);
+    color: rgb(181, 238, 181);
+    font-weight: lighter;
+
+}
+
+h2 {
+    color: rgb(35, 109, 35);
+}
+
+.basico {
+    color: rgb(35, 109, 35);
+
+}
+
+.intermediario { 
+    color: rgb(109, 108, 35);
+
+}
+
+.avançado {
+   color: rgb(109, 35, 35)
+
+}
+p {
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(69, 90, 69);
+    
+}
+

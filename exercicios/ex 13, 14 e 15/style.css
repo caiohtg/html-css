@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(94, 5, 177);
+}
+h1 {
+    color: rgb(255, 255, 0) ;
+}
+h2 {
+    color: rgb(255, 200, 0);
+}
+p {
+    color: rgb(86, 175, 175);
+}
+a {
+    color: rgb(255, 255, 0);
+}
+.next-page {
+    text-align: end;
+   }
+   .back-page {
+    text-align: start;
+   }
