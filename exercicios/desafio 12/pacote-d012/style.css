@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fontePadrão: Verdana, Geneva, Tahoma, sans-serif;
+    --fontePadrao: Verdana, Geneva, Tahoma, sans-serif;
     --fonteNormal: "Passion One", sans-serif;
     --fonteCursiva: "Sriracha", cursive;
 }
@@ -18,7 +18,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fontePadrão);
+    font-family: var(--fontePadrao);
 }
 
 header {
